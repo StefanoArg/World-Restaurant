@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+    <title>World Restaurant</title>
+
+
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@200&display=swap');
+      body {
+        font-size: 25px;
+        background-color: rgb(32, 37, 37);
+        color: white;
+      }
+      p {
+        font-family: 'Gemunu Libre', sans-serif;;
+        font-size: 30px;
+        color: rgb(255, 255, 255);
+      }
+      h5 {
+        color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- navbar col menù -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="francese.html">Francese</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="indiano.html">Indiano</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="messicano.html">Messicano</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="giapponese.html">Giapponese</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">👁</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    
+    <!-- slider di foto-->
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/camicie4.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="images/camicie7.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="images/camicie9.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+    <!-- testo di benvenuto-->
+    <div class="container">
+       <h1></h1>
+        <p>
+        </p>
+    </div>
+
+    <!-- card con le attrazioni iniziali-->
+    <div class="container">
+      <div class="row">
+        
+    <div class="card" style="width: 20rem;">
+      <img src="images/camicia1.png" height="400px" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">UOMO</h5>
+        <p class="card-text"></p>
+        <a href="uomo.html" class="btn btn-primary">Più info 👆</a>
+      </div>
+    </div>
+    <div class="card" style="width: 21rem;">
+      <img src="images/camicie2.png" height="400px" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">DONNA</h5>
+        <p class="card-text"></p>
+        <a href="donna.html" class="btn btn-primary">Più info 👆</a>
+      </div>
+    </div>
+    <div class="card" style="width: 20rem;">
+      <img src="images/bambino1.jfif" height="400px" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">BAMBINI</h5>
+        <p class="card-text"></p>
+        <a href="bambini.html" class="btn btn-primary">Più info 👆</a>
+      </div>
+    </div>
+    <div class="card" style="width: 21rem;">
+      <img src="images/comingsoon.gif" height="400px" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">NOVITÀ 2022</h5>
+        <p class="card-text"></p>
+        <a href="novità2022.html" class="btn btn-primary">Più info 👆</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+<form class="row g-3">
+  <div class="col-md-6">
+    <label for="inputEmail4" class="form-label">Email</label>
+    <input type="email" class="form-control" id="inputEmail4">
+  </div>
+  <div class="col-md-6">
+    <label for="inputPassword4" class="form-label">Password</label>
+    <input type="password" class="form-control" id="inputPassword4">
+  </div>
+  <div class="col-12">
+    <label for="inputAddress" class="form-label">Indirizzo</label>
+    <input type="text" class="form-control" id="inputAddress" placeholder="Via Rossi 18">
+  </div>
+  <div class="col-12">
+    <label for="inputAddress2" class="form-label">Indirizzo 2</label>
+    <input type="text" class="form-control" id="inputAddress2" placeholder="Appartamento, Studio, Villa, ...">
+  </div>
+  <div class="col-md-6">
+    <label for="inputCity" class="form-label">Città</label>
+    <input type="text" class="form-control" id="inputCity">
+  </div>
+  <div class="col-md-4">
+    <label for="inputState" class="form-label">Regione</label>
+    <select id="inputState" class="form-select">
+      <option selected>Scegli...</option>
+      <option>...</option>
+    </select>
+  </div>
+  <div class="col-md-2">
+    <label for="inputZip" class="form-label">Zip</label>
+    <input type="text" class="form-control" id="inputZip">
+  </div>
+  <div class="col-12">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" id="gridCheck">
+      <label class="form-check-label" for="gridCheck">
+        Accetta i termini e i servizi del sito
+      </label>
+    </div>
+  </div>
+  <div class="col-12">
+    <button type="submit" class="btn btn-primary">Registrati</button>
+  </div>
+</form>
+    </div>
+   
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    
+  </body>
+</html>
